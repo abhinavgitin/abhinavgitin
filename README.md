@@ -1,4 +1,3 @@
-# 💫 About Me:
 <p align="center">
   <img src="./assets/about_me.svg" width="100%"/>
 </p>
