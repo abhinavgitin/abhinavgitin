@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="270" rx="10" fill="url(#bg2)"/>
+
+  <!-- Border -->
+  <rect x="0.75" y="0.75" width="798.5" height="268.5" rx="10" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="38" rx="10" fill="#161b22"/>
+  <rect x="0" y="28" width="800" height="10" fill="#161b22"/>
+  <rect x="0.75" y="0.75" width="798.5" height="37" rx="9" fill="none" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f57"/>
+  <circle cx="40" cy="19" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="19" r="5.5" fill="#28c840"/>
+
+  <!-- Filename -->
+  <text x="400" y="24" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">what_i_think.md</text>
+
+  <!-- Divider -->
+  <line x1="24" y1="48" x2="776" y2="48" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="28" y="72" fill="#58a6ff" font-size="13" font-weight="600" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">💭 What I Think Of</text>
+  <line x1="28" y1="78" x2="210" y2="78" stroke="#58a6ff" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Left accent bar -->
+  <rect x="28" y="88" width="2" height="144" rx="1" fill="#58a6ff" opacity="0.5"/>
+
+  <!-- Content -->
+  <text x="44" y="106" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">↪</tspan><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff" font-weight="600">Correct</tspan><tspan fill="#e6edf3"> code.</tspan>
+  </text>
+  <text x="44" y="126" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">↪</tspan><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff" font-weight="600">Readable</tspan><tspan fill="#e6edf3"> — revisit after 6 months, still understand it instantly.</tspan>
+  </text>
+  <text x="44" y="146" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">↪</tspan><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff" font-weight="600">Maintainable</tspan><tspan fill="#e6edf3"> — change or extend without breaking existing logic.</tspan>
+  </text>
+  <text x="44" y="166" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">↪</tspan><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff" font-weight="600">DRY</tspan><tspan fill="#e6edf3"> principle. Always.</tspan>
+  </text>
+  <text x="44" y="186" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">↪</tspan><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff" font-weight="600">Bugs are everywhere.</tspan>
+  </text>
+
+  <!-- Subline -->
+  <text x="58" y="210" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11.5" fill="#8b949e" font-style="italic">↪  The real question is: can your code handle them while still respecting the principles above?</text>
+
+  <!-- Cursor -->
+  <text x="28" y="252" fill="#58a6ff" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" opacity="0.5">▋</text>
+</svg>

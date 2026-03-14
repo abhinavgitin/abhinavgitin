@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="10" fill="url(#bg)"/>
+
+  <!-- Border -->
+  <rect x="0.75" y="0.75" width="798.5" height="398.5" rx="10" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="38" rx="10" fill="#161b22"/>
+  <rect x="0" y="28" width="800" height="10" fill="#161b22"/>
+  <rect x="0.75" y="0.75" width="798.5" height="37" rx="9" fill="none" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f57"/>
+  <circle cx="40" cy="19" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="19" r="5.5" fill="#28c840"/>
+
+  <!-- Filename -->
+  <text x="400" y="24" text-anchor="middle" fill="#8b949e" font-size="11" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">about_me.md</text>
+
+  <!-- Divider -->
+  <line x1="24" y1="48" x2="776" y2="48" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Section title -->
+  <text x="28" y="74" fill="#58a6ff" font-size="13" font-weight="600" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">💫 About Me</text>
+  <line x1="28" y1="80" x2="160" y2="80" stroke="#58a6ff" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Intro lines -->
+  <text x="28" y="104" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">⤷</tspan><tspan fill="#e6edf3"> Computer Science Engineering student</tspan>
+  </text>
+  <text x="28" y="124" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">⤷</tspan><tspan fill="#e6edf3"> Building with </tspan><tspan fill="#79c0ff" font-weight="600">Java</tspan>
+  </text>
+  <text x="28" y="144" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12.5">
+    <tspan fill="#58a6ff">⤷</tspan><tspan fill="#e6edf3"> Leveling up with </tspan><tspan fill="#79c0ff" font-weight="600">DSA</tspan>
+  </text>
+
+  <!-- Section: Working on -->
+  <text x="28" y="172" fill="#3fb950" font-size="12.5" font-weight="600" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">⌂  I'm currently working on</text>
+  <text x="40" y="192" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Data Structures and Algorithms problem solving</text>
+  <text x="40" y="210" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Improving my Java development skills</text>
+  <text x="40" y="228" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Exploring backend development concepts</text>
+
+  <!-- Section: Learning -->
+  <text x="28" y="256" fill="#3fb950" font-size="12.5" font-weight="600" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">↪  I'm currently learning</text>
+  <text x="40" y="276" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Advanced Java  ·  Spring Boot  ·  DRY principles  ·  Algorithmic thinking</text>
+
+  <!-- Section: Exploring -->
+  <text x="28" y="304" fill="#3fb950" font-size="12.5" font-weight="600" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">⁂  Currently exploring deeper topics like</text>
+  <text x="40" y="324" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Advanced backend architecture</text>
+  <text x="40" y="342" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Scaling Java applications</text>
+  <text x="40" y="360" fill="#8b949e" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace">→  Deep understanding of the Spring Boot ecosystem</text>
+
+  <!-- Bottom cursor blink -->
+  <text x="28" y="388" fill="#58a6ff" font-size="12" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" opacity="0.5">▋</text>
+</svg>
