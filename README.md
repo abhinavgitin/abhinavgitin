@@ -33,4 +33,4 @@
 
 --- -->
 
-![](https://komarev.com/ghpvc/?username=abhinavgitin&color=blue&style=plastic&abbreviated=true&label=Profile+Views+Per+Day)
+![](https://komarev.com/ghpvc/?username=abhinavgitin&color=blue&style=plastic&abbreviated=true)
