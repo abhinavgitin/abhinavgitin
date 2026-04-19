@@ -32,6 +32,3 @@
 [![](https://visitcount.itsvg.in/api?id=abhinavgitin&icon=3&color=1)](https://visitcount.itsvg.in)
 
 --- -->
-<p align="center">
-  <img src="./assets/what_i_think.svg" width="100%"/>
-</p>
