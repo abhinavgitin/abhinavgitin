@@ -44,6 +44,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavgitin&theme=github-dark&hide_border=true" width="49%"/>
 </p>
 
+![mario coding](assets/pixel-art-mario-codemaxxing.gif)
 <!-- ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=abhinavgitin&theme=github_dark&no-frame=true&no-bg=true&margin-w=4&rank=SECRET,SSS,SS,S,AAA,AA,A)
 
