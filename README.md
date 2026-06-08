@@ -47,4 +47,4 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavgitin&theme=github-dark&hide_border=true" width="49%"/>
 </p>
 
-![mario coding](assets/pixel-art-mario-codemaxxing.gif)
+![mario coding](assets/mario_coding.gif)
