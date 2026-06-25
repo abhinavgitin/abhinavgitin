@@ -1,6 +1,5 @@
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&size=58&pause=700&duration=1500&color=FFFFFF&center=true&vCenter=true&multiline=false&width=1000&height=90&lines=Abhinav+Puri.;Computer+Science+Engineering+Student.;Building+with+Java.;Leveling+up+with+DSA.;Learning+%C2%B7+Advanced+Java+%C2%B7+Spring+Boot." alt="Abhinav Puri" />
+  <img src="./assets/output/header.svg" width="100%" alt="Abhinav Puri"/>
 </p>
 
 ##  Socials:
