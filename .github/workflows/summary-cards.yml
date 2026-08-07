@@ -13,12 +13,34 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: output
+          AUTO_PUSH: false
           UTC_OFFSET: 5.5
           ANIMATION: sequence
           THEME: github_dark
+
+      - name: Clean card title
+        run: |
+          python -c "
+          import glob, re
+          for fpath in glob.glob('profile-summary-card-output/**/*.svg', recursive=True):
+              with open(fpath, 'r', encoding='utf-8') as f:
+                  content = f.read()
+              new_content = re.sub(r'abhinavgitin\s*\([^)]*\)', 'abhinavgitin', content)
+              if new_content != content:
+                  with open(fpath, 'w', encoding='utf-8') as f:
+                      f.write(new_content)
+          "
+
+      - name: Push to output branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: output
+          commit_message: "Generate profile summary cards"
+          create_branch: true
