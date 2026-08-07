@@ -23,6 +23,7 @@ jobs:
           AUTO_PUSH: false
           UTC_OFFSET: 5.5
           ANIMATION: sequence
+          DURATION: 4
           THEME: github_dark
 
       - name: Clean card title
@@ -32,7 +33,7 @@ jobs:
           for fpath in glob.glob('profile-summary-card-output/**/*.svg', recursive=True):
               with open(fpath, 'r', encoding='utf-8') as f:
                   content = f.read()
-              new_content = re.sub(r'abhinavgitin\s*\([^)]*\)', 'abhinavgitin', content)
+              new_content = re.sub(r'abhinavgitin\s*\(.*?\)', 'abhinavgitin', content)
               if new_content != content:
                   with open(fpath, 'w', encoding='utf-8') as f:
                       f.write(new_content)
