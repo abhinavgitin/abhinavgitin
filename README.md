@@ -2,14 +2,31 @@
   <img src="./assets/output/header.svg" width="100%" alt="Abhinav Puri"/>
 </p>
 
+<table>
+  <tr>
+    <td width="55%" valign="top">
+
 ##  Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinavpuriin) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=plastic&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30812312) [![X](https://img.shields.io/badge/X-black.svg?style=plastic&logo=X&logoColor=white)](https://x.com/abhinavpuri_x) [![email](https://img.shields.io/badge/Email-D14836?style=plastic&logo=gmail&logoColor=white)](mailto:abhinavpuri.in@gmail.com)
+
+<br/>
 
 ##  Coding Grounds:
 [![Codolio](https://img.shields.io/badge/Codolio-Profile-EA4335?style=plastic&logoColor=white)](https://codolio.com/profile/abhinavpuri)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=plastic&logo=leetcode&logoColor=black)](https://leetcode.com/u/abhinavpuri/) 
 [![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-2F8D46?style=plastic&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/abhinavpurigfg) 
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=plastic&logo=codeforces&logoColor=white)](https://codeforces.com/profile/abhinavpuri) 
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=plastic&logo=codeforces&logoColor=white)](https://codeforces.com/profile/abhinavpuri)
+
+    </td>
+    <td width="45%" align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/Skills_Animation_Dark.gif">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/Skills_Animation_White.gif">
+        <img src="./assets/Skills_Animation_Dark.gif" width="100%" alt="Skills Animation"/>
+      </picture>
+    </td>
+  </tr>
+</table> 
 
 ##  Tech Stack:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white)
