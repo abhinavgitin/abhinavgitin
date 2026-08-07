@@ -19,6 +19,6 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: output
-          UTC_OFFSET: 5
+          UTC_OFFSET: 5.5
           ANIMATION: sequence
           THEME: github_dark
