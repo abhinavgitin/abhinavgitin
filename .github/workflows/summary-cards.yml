@@ -21,3 +21,4 @@ jobs:
           BRANCH_NAME: output
           UTC_OFFSET: 5
           ANIMATION: sequence
+          THEME: github_dark
