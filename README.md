@@ -54,7 +54,7 @@
 </table> 
 
 
-## 📊 GitHub Stats:
+## GitHub Stats:
 <p align="center">
   <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%"/>
 </p>
