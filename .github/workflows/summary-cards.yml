@@ -44,3 +44,4 @@ jobs:
           branch: output
           commit_message: "Generate profile summary cards"
           create_branch: true
+          push_options: '--force'
