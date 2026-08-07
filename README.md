@@ -3,7 +3,7 @@
 </p>
 
 ##  Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=plastic&logo=Instagram&logoColor=white)](https://instagram.com/avi_abhinavv) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinavpuriin) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=plastic&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30812312) [![X](https://img.shields.io/badge/X-black.svg?style=plastic&logo=X&logoColor=white)](https://x.com/abhinavpuri_x) [![email](https://img.shields.io/badge/Email-D14836?style=plastic&logo=gmail&logoColor=white)](mailto:prabhudarsanpuri987@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinavpuriin) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=plastic&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30812312) [![X](https://img.shields.io/badge/X-black.svg?style=plastic&logo=X&logoColor=white)](https://x.com/abhinavpuri_x) [![email](https://img.shields.io/badge/Email-D14836?style=plastic&logo=gmail&logoColor=white)](mailto:abhinavpuri.in@gmail.com)
 
 ##  Coding Grounds:
 [![Codolio](https://img.shields.io/badge/Codolio-Profile-EA4335?style=plastic&logoColor=white)](https://codolio.com/profile/abhinavpuri)
@@ -33,17 +33,17 @@
 
 ## 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhinavgitin&theme=github_dark" width="100%"/>
+  <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abhinavgitin&theme=github_dark" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abhinavgitin&theme=github_dark" width="49%"/>
+  <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%"/>
+  <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=abhinavgitin&theme=github-dark&hide_border=true" width="49%"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavgitin&theme=github-dark&hide_border=true" width="49%"/>
+  <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/3-stats.svg" width="49%"/>
+  <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%"/>
 </p>
 
 ![mario coding](assets/mario_coding.gif)
