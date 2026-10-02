@@ -1,0 +1,35 @@
+﻿name: Update DSA Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Weekly on Sundays at midnight UTC
+  workflow_dispatch:     # Manual run trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-dsa-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Puppeteer
+        run: npm install
+
+      - name: Scrape Codolio & Update Stats Card
+        env:
+          CODOLIO_USERNAME: abhinavpuri
+        run: node scripts/update-stats.mjs
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update DSA stats card [skip ci]"
+          file_pattern: "assets/output/dsa-stats.svg data/dsa-stats.json"

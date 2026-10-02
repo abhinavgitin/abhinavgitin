@@ -1,0 +1,12 @@
+﻿{
+  "name": "abhinavgitin-dsa-stats",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-stats": "node scripts/update-stats.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^23.3.0"
+  }
+}
