@@ -1,5 +1,5 @@
-﻿{
-  "name": "abhinavgitin-dsa-stats",
+{
+  "name": "abhinavgitin-profile-stats",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,6 +7,6 @@
     "update-stats": "node scripts/update-stats.mjs"
   },
   "dependencies": {
-    "puppeteer": "^23.3.0"
+    "puppeteer": "^24.15.0"
   }
 }
