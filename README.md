@@ -5,19 +5,19 @@
 <table border="0">
   <tr>
     <td width="60%" valign="middle">
-      <img src="./assets/output/header-socials.svg" height="20" alt="SOCIALS"/><br/>
+      <img src="./assets/output/header-socials.svg" height="50%" alt="SOCIALS"/><br/>
       <a href="https://linkedin.com/in/abhinavpuriin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <a href="https://stackoverflow.com/users/30812312"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=flat-square&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/></a>
       <a href="https://x.com/abhinavpuri_x"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
       <a href="mailto:abhinavpuri.in@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-      <br/><br/>
-      <img src="./assets/output/header-coding-grounds.svg" height="20" alt="CODING GROUNDS"/><br/>
+      <br/><br/><br/>
+      <img src="./assets/output/header-coding-grounds.svg" height="50%" alt="CODING GROUNDS"/><br/>
       <a href="https://codolio.com/profile/abhinavpuri"><img src="https://img.shields.io/badge/Codolio-EA4335?style=flat-square&logoColor=white" alt="Codolio"/></a>
       <a href="https://leetcode.com/u/abhinavpuri/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
       <a href="https://www.geeksforgeeks.org/profile/abhinavpurigfg"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" alt="GeeksForGeeks"/></a>
       <a href="https://codeforces.com/profile/abhinavpuri"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
-      <br/><br/>
-      <img src="./assets/output/header-tech-stack.svg" height="20" alt="TECH STACK"/><br/>
+      <br/><br/><br/>
+      <img src="./assets/output/header-tech-stack.svg" height="50%" alt="TECH STACK"/><br/>
       <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
       <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot"/>
@@ -57,7 +57,7 @@
 
 
 <p align="left">
-  <img src="./assets/output/header-github-stats.svg" height="26" alt="GITHUB STATS"/>
+  <img src="./assets/output/header-github-stats.svg" height="50%" alt="GITHUB STATS"/>
 </p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%"/>
