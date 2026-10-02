@@ -131,7 +131,7 @@ async function scrapeLiveStats() {
   }
 }
 
-// Generate the Clean Icon-Free Minimal SVG Card
+// Generate the Refined Minimal SVG Card
 function generateSVG(data) {
   const { username, stats } = data;
   const questions = stats.totalQuestions ?? 0;
@@ -160,20 +160,20 @@ function generateSVG(data) {
 
     .card-title {
       font-size: 17px;
-      font-weight: 700;
-      fill: #58a6ff;
+      font-weight: 600;
+      fill: #0366d6;
       letter-spacing: -0.2px;
     }
     .stat-number {
-      font-weight: 800;
-      font-size: 30px;
+      font-weight: 600;
+      font-size: 28px;
       fill: #f0f6fc;
       letter-spacing: -0.5px;
       text-anchor: middle;
     }
     .stat-label {
       font-size: 11px;
-      font-weight: 600;
+      font-weight: 500;
       fill: #8b949e;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -189,7 +189,7 @@ function generateSVG(data) {
   <!-- Clean Dark Background Border (Matching GitHub Dark Theme) -->
   <rect x="0.5" y="0.5" width="519" height="149" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
 
-  <!-- Title Only -->
+  <!-- Title Only (Darker blue, reduced bold) -->
   <g class="fade-in font-base" transform="translate(25, 32)">
     <text x="0" y="0" class="card-title">DSA &amp; Problem Solving Stats</text>
   </g>

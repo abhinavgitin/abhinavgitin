@@ -76,8 +76,6 @@
     <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/3-stats.svg" width="49%"/>
     <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%"/>
 </p>
-
-## DSA & Competitive Programming:
 <p align="center">
   <a href="https://codolio.com/profile/abhinavpuri" target="_blank">
       <img src="./assets/output/dsa-stats.svg" width="100%" alt="Abhinav's DSA Stats"/>
