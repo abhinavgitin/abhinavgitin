@@ -5,16 +5,32 @@ on:
     - cron: "0 0 * * 0"
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: generate-github-cards
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
+permissions:
+  contents: write
 
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+    name: generate-profile-cards
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Puppeteer
+        run: npm install --no-package-lock
+
+      - name: Scrape Codolio & Update DSA Stats Card
+        env:
+          CODOLIO_USERNAME: abhinavpuri
+        run: node scripts/update-stats.mjs
+
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
@@ -40,10 +56,13 @@ jobs:
                       f.write(new_content)
           "
 
-      - name: Push to output branch
+      - name: Push all cards to output branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: output
-          commit_message: "Generate profile summary cards"
+          commit_message: "chore: auto-update profile cards and DSA stats [skip ci]"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
           create_branch: true
           push_options: '--force'

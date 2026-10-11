@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="./assets/output/header.svg" width="100%" alt="Abhinav Puri"/>
 </p>
 
@@ -74,7 +74,7 @@
 </p>
 <p align="center">
   <a href="https://codolio.com/profile/abhinavpuri" target="_blank">
-      <img src="./assets/output/dsa-stats.svg" width="100%" alt="Abhinav's DSA Stats"/>
+      <img src="https://raw.githubusercontent.com/abhinavgitin/abhinavgitin/output/assets/output/dsa-stats.svg" width="100%" alt="Abhinav's DSA Stats"/>
   </a>
 </p>
 
