@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" width="520" height="150" fill="none" role="img" aria-labelledby="cardTitle cardDesc">
   <title id="cardTitle">abhinavpuri's DSA &amp; Problem Solving Stats</title>
-  <desc id="cardDesc">Total Questions Solved: 549, Contests: 3, Awards: 4</desc>
+  <desc id="cardDesc">Total Questions Solved: 554, Contests: 3, Awards: 4</desc>
 
   <style>
     .font-base {
@@ -57,7 +57,7 @@
   <!-- Tile 1: Questions Solved -->
   <g class="stagger-1 font-base" transform="translate(25, 48)">
     <rect x="0" y="0" width="146" height="80" rx="6" class="tile-box" />
-    <text x="73" y="44" class="stat-number">549</text>
+    <text x="73" y="44" class="stat-number">554</text>
     <text x="73" y="63" class="stat-label">Problems Solved</text>
   </g>
 
